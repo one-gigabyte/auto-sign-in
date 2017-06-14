@@ -5,13 +5,16 @@
   "main": "index.js",
   "scripts": {
     "test": "test",
-    "start" : "node index.js"
+    "start": "node index.js"
   },
   "author": "august",
   "license": "ISC",
   "dependencies": {
     "cheerio": "^0.22.0",
+    "events": "^1.1.1",
     "figlet": "^1.2.0",
-    "nodegrass": "0.0.3"
+    "fs": "0.0.1-security",
+    "nodegrass": "0.0.3",
+    "superagent": "^3.5.2"
   }
 }
